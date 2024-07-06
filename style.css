@@ -1,0 +1,35 @@
+
+        body, html {
+            height: 100%;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #eabcdb; /* Optional: adds a background color */
+        }
+        .line {
+            fill: none;
+            stroke: red;
+            stroke-width: 2px;
+        }
+        .axis path,
+        .axis line {
+            fill: none;
+            shape-rendering: crispEdges;
+        }
+        .axis text {
+            font-size: 12px;
+        }
+        .title {
+            font-size: 20px;
+            fill: purple;
+            text-anchor: middle;
+            font-weight: bold;
+        }
+        .frame-text {
+            font-size: 20px;
+            fill: rgb(202, 70, 189);
+        }
+        svg {
+            display: block;
+        }
